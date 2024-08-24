@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Color Code Generator</h1>
+        <div class="color-box" id="colorBox"></div>
+        <p id="colorCode">#FFFFFF</p>
+        <input type="text" id="colorInput" placeholder="Enter color name (e.g., red)">
+        <button id="generateBtn">Generate Color</button>
+        
+        <div class="color-formats">
+            <p>Hex: <span id="hexCode">#FFFFFF</span></p>
+            <p>RGB: <span id="rgbCode">rgb(255, 255, 255)</span></p>
+            <p>HSL: <span id="hslCode">hsl(0, 0%, 100%)</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
